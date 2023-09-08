@@ -14,7 +14,7 @@ function onSubmit(event) {
 
   const step = Number(inputDelayStep.value);
   const amount = Number(inputAmount.value);
-  let position = 0; 
+  let position = 1; 
 
   function createPromise(position, delay) {
     const shouldResolve = Math.random() > 0.3; 
